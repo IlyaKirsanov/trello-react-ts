@@ -1,11 +1,15 @@
 html {
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+body {
+  margin: 0;
 }
 
 html,
