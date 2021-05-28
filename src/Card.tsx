@@ -1,10 +1,11 @@
 import React from "react";
-import { CardContainer } from "./styles";
+import {CardContainer} from "./styles";
 
 type CardProps = {
+  id: string;
   text: string;
 };
 
-export const Card = ({ text }: CardProps) => {
+export const Card = ({text}: CardProps) => {
   return <CardContainer>{text}</CardContainer>;
 };
