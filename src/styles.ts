@@ -58,7 +58,7 @@ export const CardContainer = styled(DragPreviewContainer)`
   padding: 0.5rem 1rem;
   max-width: 300px;
   border-radius: 3px;
-  box-shadow: #091e4240 0px 1px 0px 0px;
+  box-shadow: #091e4240 0 1px 0 0;
 `
 
 type AddItemButtonProps = {
@@ -92,7 +92,7 @@ export const NewItemFormContainer = styled.div`
 export const NewItemInput = styled.input`
   border-radius: 3px;
   border: none;
-  box-shadow: #091e4240 0px 1px 0px 0px;
+  box-shadow: #091e4240 0 1px 0 0;
   margin-bottom: 0.5rem;
   padding: 0.5rem 1rem;
   width: 100%;
