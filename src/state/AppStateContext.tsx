@@ -31,7 +31,6 @@ type AppStateContextProps = {
   getTasksByListId(id: string): Task[]
   dispatch: Dispatch<Action>
 
-
 }
 
 const AppStateContext = createContext<AppStateContextProps>({} as AppStateContextProps);
